@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {    
+    background: -webkit-linear-gradient(0deg, rgb(220, 223, 223) 80%, rgb(250, 237, 232) 42%);
+    background: -moz-linear-gradient(0deg, rgb(220, 223, 223) 80%, rgb(250, 237, 232) 42%);
+    background: linear-gradient(0deg, rgb(220, 223, 223) 80%, rgb(250, 237, 232) 42%);
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    margin: 40px auto;
+    padding: 50px 45px 0 45px;
+    max-width: 1100px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    
+    display: flex;
+}
+
+header {
+    margin: 0 0 80px 0;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    height: 0px;
+   
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #414042;
+    transition: 0.8s;
+   
+}
+
+.menu-list li a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+.left {
+    max-width: 358px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right {
+    margin: 0 0 0 45px;
+    max-width: 60%;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 38px;
+    color: #414042;
+}
+
+.description-intro {
+    padding: 15px 0 0 0;
+    font-size: 18px;
+}
+
+.img-intro {
+    padding: 30px 0 0 0;
+    width: 190px;
+}
+
+.text-intro {
+    padding: 30px 0 0 0;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #414042;
+}
+
+
+.contact {
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hr-charter {
+    width: 100%;
+    height: 3px;
+    background: #414042;
+}
+.header-charter {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.img-header-charter {
+    width: 30px;
+    margin: 0 20px 0 0;
+}
+.h2-charter {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #414042;
+    letter-spacing: 0.15em;
+}
+
+.contact-item {
+    padding: 10px 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-contant-item {
+    display: flex;
+}
+
+.img-contact-item {
+    width: 26px;
+    margin: 0 10px 0 0;
+}
+
+.vertical-line-contact-item {
+    width: 2px;
+    height: 30px;
+    background-color: #414042;
+}
+.text-contact-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 11px;
+    color: #414042;
+    opacity: 0.8;
+}
+
+.link-contact-item {
+    color: #414042;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.link-contact-item:hover {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.skills {
+    margin: 50px 0 0 0;
+}
+
+
+
+.certification {
+    margin: 50px 0 0 0;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #414042;
+}
+
+.content-certification {
+    padding: 10px 0 0 0;
+}
+
+.item-content-certification {
+    padding: 20px 0 0 0;
+}
+
+.content-skills {
+    display: flex;
+    padding: 20px 0 0 0;
+    justify-content: space-between;
+}
+
+.list-none-disk {
+    list-style: none;
+}
+
+.list-none-disk li{
+    padding: 12px 0 0 0;
+}
+
+.english {
+    margin: 30px 0 0 0;
+}
+
+.projects {
+    margin: 30px 0 0 0;
+    box-sizing:border-box;
+}
+
+
+
+
+
+
+
+
+
+
+.main-list {
+    padding: 30px 0 0 0;
+}
+
+.education-content {
+    margin: 10px 0 30px 0;
+}
+
+
+h3 {
+    padding: 30px 0 15px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    color: #414042;
+}
+
+.list-cv {
+    margin: 0 0 0 20px;
+}
+.list-cv li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #414042;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #414042;
+    opacity: 0.7;
+}
+
+.sample-code {
+    padding: 30px 0 0 0;
+}
+
+.screen {
+    margin: 30px 0 0 0;
+}
+
+code {
+    margin: 0;
+}
+.pink {
+    color: #F16CB4;
+}
+.green {
+    color: #73C293;
+}
+.violet {
+    color: #766CF1;
+}
+.blue {
+    color: #89caff;
+}
+.white {
+    color: #fff;
+}
+.orange {
+    color: rgb(255, 204, 109);
+}
+
+pre {
+    background-color: rgb(18, 1, 44);
+    padding: 20px 0 10px 0;
+}
+
+
+
+
+footer {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 0 30px 0;
+}
+
+.footer-left img{
+    width: 138px;
+    
+}
+footer p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-right img{
+    width: 138px;
+    
+}
+
+@media (max-width: 1200px) {
+    main {
+        padding: 50px 45px 0 45px;
+        max-width: 900px;
+    }
+    .left {
+        max-width: 278px;
+    }
+    h1 {
+        font-size: 41px;
+    }
+    .description-intro {
+        padding: 7px 0 0 0;
+        font-size: 16px;
+    }
+    .text-intro {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .h2-charter {
+        font-size: 21px;
+    }
+    .img-header-charter {
+        width: 25px;
+    }
+    .img-contact-item {
+        width: 23px;
+    }
+    .text-contact-item {
+        font-size: 14px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    h3 {
+        padding: 22px 0 15px 0;
+        font-size: 19px;
+    }
+    .list-cv li {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .subtitle {
+        line-height: 168%;
+    }
+    .footer-left img {
+        width: 121px;
+    }
+    .footer-right img {
+        width: 107px;
+    }
+}
+
+@media (max-width: 824px) {
+    main {
+        padding: 50px 45px 0 45px;
+        max-width: 730px;
+    }
+    .left {
+        max-width: 278px;
+    }
+    h1 {
+        font-size: 41px;
+    }
+    .description-intro {
+        padding: 7px 0 0 0;
+        font-size: 16px;
+    }
+    .text-intro {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .h2-charter {
+        font-size: 21px;
+    }
+    .img-header-charter {
+        width: 25px;
+    }
+    .img-contact-item {
+        width: 23px;
+    }
+    .text-contact-item {
+        font-size: 14px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    h3 {
+        padding: 22px 0 15px 0;
+        font-size: 19px;
+    }
+    .list-cv li {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .subtitle {
+        line-height: 168%;
+    }
+    .footer-left img {
+        width: 121px;
+    }
+    .footer-right img {
+        width: 107px;
+    }
+}
