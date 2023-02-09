@@ -1,1 +1,1 @@
-https://juliagrib.github.io/rsschool-cv/
+https://juliagrib.github.io/my-cv/
